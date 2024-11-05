@@ -1,0 +1,92 @@
+body
+{
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.section-1
+{
+    margin:10px;
+    padding:10px;
+    background-color: black;
+    color:white;
+    width:100%;
+    text-align: center;
+   
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.image-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 22%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.image-card img {
+    width: 100%;
+    height: 200px;
+}
+.content {
+    padding: 15px;
+}
+.content h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+.content button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content button:hover {
+    background-color:black;
+}
+.section-3{
+    padding: 10px;
+    background-color: black;
+    color:white;
+    width:100%;
+
+}
+
+
+.section-3__name,.section-3__age,.section-3__email
+{
+    display: flex;
+    justify-content: center;
+}
+.section-3__contact{
+    display: flex;
+    justify-content: center;
+
+}
+.section-3__send{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+.section-3__button{
+    width:40%;
+}
+
